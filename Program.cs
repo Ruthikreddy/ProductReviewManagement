@@ -49,6 +49,9 @@ namespace ProductReviewManagement
             /// Calling the CountByProductID method from ProductManagement class
             Console.WriteLine("Count of product id--");
             productManagement.CountByProductID(productReviewList);
+            /// Calling the RetrieveProductIDAndReview method from ProductManagement class
+            Console.WriteLine("\nProduct ID and Review of every product");
+            productManagement.RetrieveProductIDAndReview(productReviewList);
         }
     }
 }
