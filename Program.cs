@@ -68,6 +68,9 @@ namespace ProductReviewManagement
             /// Calling RetrieveDataWithReview method from ProductManagementDataTable class
             Console.WriteLine("Retrieving data with review condition");
             productManagementDataTable.RetrieveDataWithReview();
+            /// Calling RetrieveDataWithUserID method from ProductManagementDataTable class
+            Console.WriteLine("Retrieving data with user id condition sorted by rating");
+            productManagementDataTable.RetrieveDataWithUserID();
         }
     }
 }
