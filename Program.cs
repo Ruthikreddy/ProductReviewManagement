@@ -46,6 +46,9 @@ namespace ProductReviewManagement
             /// Calling the RetrieveByCondition method from ProductManagement class
             Console.WriteLine("Records with the provided conditions");
             productManagement.RetrieveByCondition(productReviewList);
+            /// Calling the CountByProductID method from ProductManagement class
+            Console.WriteLine("Count of product id--");
+            productManagement.CountByProductID(productReviewList);
         }
     }
 }
